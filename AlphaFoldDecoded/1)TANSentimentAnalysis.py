@@ -121,7 +121,7 @@ class SentimentWrapper(nn.Module):
     def configure_optimizers(self):
 
         optimizer = torch.optim.AdamW(self.parameters(),lr=self.learning_rate)
-
+    
         return optimizer
 
         
